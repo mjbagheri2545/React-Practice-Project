@@ -1,0 +1,27 @@
+.button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+    border: none;
+    outline: none;
+    color: var(--bs-light);
+}
+.button.button-dark {
+    background-color: var(--bs-dark);
+}
+.button.button-dark:hover {
+    background-color: var(--bs-gray-700);
+}
+.button.button-gray {
+    background-color: var(--bs-gray-700);
+}
+.button.button-gray:hover {
+    background-color: var(--bs-gray-600);
+}
+.button.button-purple {
+    background-color: var(--color-one);
+}
+.button.button-purple:hover {
+    background-color: var(--color-one-hover);
+}

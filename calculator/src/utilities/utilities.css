@@ -1,0 +1,10 @@
+:root {
+    --color-one : #810CA8;
+    --color-one-hover : #C147E9;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
